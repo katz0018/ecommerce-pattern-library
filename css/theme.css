@@ -2,11 +2,38 @@
   --color-primary: #BCD5B8;
   --color-secondary: #FFCECE;
   --color-accent: #000;
-
+  --color-hover: #fff;
 
   --font-primary: "Roboto", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--color-accent);
+}
+
+a {
+  color: var(--color-hover);
+}
+
+mark {
+  background-color: var(--color-accent);
+  color: var(--color-hover);
+}
+
+dt {
+  font-weight: bold;
+}
+
+/* @utility Apply a green background colour to an element */
+.section-green {
+  background-color: var(--color-primary);
+}
+/* @utility Apply a pink background colour to an element */
+.section-light-pink {
+  background-color: var(--color-secondary);
 }
