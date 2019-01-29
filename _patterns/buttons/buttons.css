@@ -1,0 +1,28 @@
+.btn {
+  color: var(--color-hover);
+  background-color: var(--color-accent);
+  border-radius: 4px;
+  padding: .5em 1em .5em 1em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: var(--color-accent);
+  background-color: var(--color-hover);
+  border: none;
+}
+
+.btn-ghost {
+  color: var(--color-accent);
+  background-color: transparent;
+  border-radius: 4px;
+  padding: .5em 1em .5em 1em;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-hover);
+  color: var(--color-accent)
+
+}
