@@ -1,0 +1,13 @@
+patterns:
+  basic:
+    title: "Basic button"
+    description: |
+      This button will be used for the details page and for all banners.
+  ghost:
+    title: "Footer button"
+    description: |
+      This button will be used for the subscribe button in the footer.
+  button-white:
+    title: "Add to cart"
+    description: |
+      This button can be used when you are viewing a specific item and you would like to add to your cart.

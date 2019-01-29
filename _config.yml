@@ -9,3 +9,5 @@ patternbot:
   colors:
     patterns:
       brand.logos: "--color-primary"
+      buttons.button-white: "--color-accent"
+      buttons.basic-button: "--color-primary"
