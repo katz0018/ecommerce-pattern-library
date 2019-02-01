@@ -1,3 +1,10 @@
 .product-card {
   border: none;
 }
+
+.mission-card {
+  text-align: center;
+  width: 9em;
+  background-color: var(--color-hover);
+  text-shadow: 2px 2px;
+}

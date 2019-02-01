@@ -11,3 +11,5 @@ patternbot:
       brand.logos: "--color-primary"
       buttons.button-white: "--color-accent"
       buttons.basic-button: "--color-primary"
+      cards: "--color-primary"
+      cards.mission-cards: "--color-secondary"
