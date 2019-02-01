@@ -30,5 +30,4 @@
 .btn-white:hover {
   color: var(--color-hover);
   background-color: transparent;
-  border-color: var(--color-hover);
 }
