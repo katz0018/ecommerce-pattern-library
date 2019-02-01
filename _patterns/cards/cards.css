@@ -13,3 +13,7 @@
   box-shadow: 1px 1px 10px;
   text-align: center;
 }
+
+.product-card img {
+  width: 90%;
+}
