@@ -1,3 +1,5 @@
 patterns:
-  mission-cards:
+  image:
     width: 300
+  mission-cards:
+    width: 1000
