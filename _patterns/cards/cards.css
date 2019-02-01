@@ -4,7 +4,11 @@
 
 .mission-card {
   text-align: center;
-  width: 9em;
   background-color: var(--color-hover);
-  text-shadow: 2px 2px;
+}
+
+.white {
+  background-color: var(--color-hover);
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px;
 }
