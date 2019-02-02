@@ -1,3 +1,10 @@
 patterns:
   mission-cards:
     width: 1000
+    title: "Banner card"
+    description: |
+      These three cards will be used as a description of the banner on the main page, under our mission section.
+  image:
+    title: "Products page card set"
+    description: |
+      This set of cards will be used only for the products page.
