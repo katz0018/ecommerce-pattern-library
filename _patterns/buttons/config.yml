@@ -3,8 +3,6 @@ patterns:
     title: "Basic button"
     description: |
       This button will be used for the products page and for all banners.
-    fields:
-      -name: text
   ghost:
     title: "Footer button"
     description: |
