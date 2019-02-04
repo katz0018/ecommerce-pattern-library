@@ -1,0 +1,9 @@
+.image-sexy {
+  position: relative;
+}
+
+.text-sexy {
+  position: absolute;
+  bottom: 10em;
+  width: 40%;
+}

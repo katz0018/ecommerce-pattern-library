@@ -34,3 +34,14 @@
   background-color: transparent;
   border-color: var(--color-hover);
 }
+
+.nav-button {
+  border: none;
+  background-color: transparent;
+  color: var(--color-accent);
+}
+
+.nav-button:hover {
+  border-bottom: solid 3px var(--color-accent);
+  border-radius: 0;
+}
