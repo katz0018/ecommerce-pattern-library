@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #BCD5B8;
-  --color-secondary: #FFCECE;
-  --color-accent: #000;
-  --color-hover: #fff;
+  --color-primary: #000;
+  --color-secondary: #fff ;
+  --color-accent: #BCD5B8;
+  --color-hover: #FFCECE;
 
   --font-primary: "Roboto", sans-serif;
 }
@@ -13,7 +13,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-primary);
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 mark {
@@ -32,4 +32,8 @@ dt {
 /* @utility Apply a pink background colour to an element */
 .section-light-pink {
   background-color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-primary);
 }

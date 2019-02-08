@@ -5,5 +5,8 @@
 .text-sexy {
   position: absolute;
   bottom: 26em;
-  width: 40%;
+}
+
+.second-banner {
+  background-color: var(--color-secondary);
 }

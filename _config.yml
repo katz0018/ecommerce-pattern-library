@@ -4,12 +4,13 @@ theme: jekyll_patternbot
 patternbot:
   title: "Clean your life"
   description:
-    Soapify belives in creating a clean world. We create all our soap by hand, making a more eco-friendly way of making soap. Soapify also donates 20% of our income to Global warming.org. Clean mind, clean world.
+    Clean Soap belives in helping you feel sexy. We create all our soap by hand, making a more eco-friendly way of making soap. Clean Soap also donates 20% of our income to Global warming.org. Clean mind, clean world, sexy you.
   font_url: "https://fonts.google.com/?query=Robo&selection.family=Roboto:300,400,400i,700,900"
-  colors:
-    patterns:
-      brand.logos: "--color-primary"
-      buttons.button-white: "--color-accent"
-      buttons.basic-button: "--color-primary"
-      cards: "--color-primary"
-      cards.mission-cards: "--color-secondary"
+
+  rationales:
+    colors.primary: |
+        This color is as part of the brands main colour, it can be used as colouring section.
+    colors.secondary: |
+        This is only to be used as an optional second color.
+    colors.accent: |
+        This color is only to be used to emphasize something on the website. Like a link, a special section on the website, etc.
