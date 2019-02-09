@@ -1,19 +1,19 @@
 nav li a {
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 li a:hover {
   padding-bottom: .2em;
-  border-bottom: solid 3px var(--color-accent);
+  border-bottom: solid 3px var(--color-primary);
 }
 
 focus:active {
   padding-bottom: .2em;
-  border-bottom: solid 3px var(--color-accent);
+  border-bottom: solid 3px var(--color-primary);
 }
 
 .search {
   border-color: transparent;
-  border-bottom: solid 1px var(--color-accent);
+  border-bottom: solid 1px var(--color-primary);
 }

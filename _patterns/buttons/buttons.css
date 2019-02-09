@@ -24,24 +24,25 @@
 }
 
 .btn-white {
-  color: var(--color-secondary);
-  background-color: var(--color-hover);
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
   border-color: transparent;
 }
 
 .btn-white:hover {
-  color: var(--color-hover);
+  color: var(--color-secondary);
   background-color: transparent;
-  border-color: var(--color-hover);
+  border-color: var(--color-secondary);
 }
 
 .nav-button {
   border: none;
   background-color: transparent;
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 .nav-button:hover {
-  border-bottom: solid 3px var(--color-primary);
+  border-bottom: solid 2px var(--color-primary);
   border-radius: 0;
 }
