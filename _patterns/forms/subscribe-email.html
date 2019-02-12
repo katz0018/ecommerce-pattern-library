@@ -6,7 +6,7 @@
   <meta name="viewport" content="...">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="forms/form.css" rel="stylesheet">
 
 </head>
 <body>
@@ -16,13 +16,14 @@
     <input type="email" id="email" required>
 
     <fieldset>
-      <div>
+      <div class="pad-t">
         <input type="radio" id="yes-8" name="truck">
         <label for="yes-8">Yes, I would like to recieve new and exciting deals.</label>
       </div>
     </fieldset>
-
-    {% pattern buttons/ghost %}
+    <div>
+      {% pattern buttons/ghost %}
+    </div>
   </form>
 </body>
 </html>

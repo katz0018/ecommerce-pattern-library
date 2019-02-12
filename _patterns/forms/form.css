@@ -3,7 +3,7 @@ html {
 }
 
 .flag-optional {
-  color: #999;
+  color: #000;
 }
 
 .is-validated input:invalid,
@@ -21,7 +21,7 @@ input[type="checkbox"]:invalid + label::before {
 .error-message {
   display: none;
   background-color: #fee;
-  color: #c33;
+  color: var(--color-primary);
 }
 
 .error-message-highlighted {

@@ -5,14 +5,14 @@
   <title>Contact form</title>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="forms/form.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
   <form class="max-length" method="POST" action="#">
     <h1 class="push-0">Contact us.</h1>
-    <p>At Clean Body we care to know your thoughts, feelings and questions. Feel free to ask us anythings.</p>
+    <p class="push">At Clean Body we care to know your thoughts, feelings and questions. Feel free to ask us anythings.</p>
     <div class="push">
       <label for="name">Name</label>
       <input id="name" required>
@@ -22,14 +22,15 @@
       <input id="email" type="email" name="email" required>
     </div>
 
-    <div class="push">
+    <div>
       <label for="details">Message</label>
       <textarea id="details" name="message" required></textarea>
     </div>
 
-    <div>
+    <div class="pad-t-1-2">
       {% pattern buttons/basic %}
     </div>
   </form>
+
 </body>
 </html>
