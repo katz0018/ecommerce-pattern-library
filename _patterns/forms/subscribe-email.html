@@ -1,13 +1,27 @@
-<form method="post" action="https://learn-the-web.algonquindesign.ca/topics/forms-cheat-sheet/">
-  <label for="email">Email address</label>
-  <input type="email" id="email" required>
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>form-error</title>
+  <meta name="viewport" content="...">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  <fieldset>
-    <div>
-      <input type="radio" id="yes-8" name="truck">
-      <label for="yes-8">Yes, I would like to recieve new and exciting deals.</label>
-    </div>
-  </fieldset>
+</head>
+<body>
+  <form class="max-length" method="post" action="https://learn-the-web.algonquindesign.ca/topics/forms-cheat-sheet/">
+    <label for="email">Email address</label>
+    <input type="email" id="email" required>
 
-  {% pattern buttons/ghost %}
-</form>
+    <fieldset>
+      <div>
+        <input type="radio" id="yes-8" name="truck">
+        <label for="yes-8">Yes, I would like to recieve new and exciting deals.</label>
+      </div>
+    </fieldset>
+
+    {% pattern buttons/ghost %}
+  </form>
+</body>
+</html>
