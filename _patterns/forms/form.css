@@ -1,7 +1,3 @@
-html {
-  font-family: sans-serif;
-}
-
 .flag-optional {
   color: #000;
 }
@@ -10,11 +6,6 @@ html {
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
 .is-validated [type="checkbox"]:invalid + label::before {
-  border-color: #f33;
-}
-
-input:invalid,
-input[type="checkbox"]:invalid + label::before {
   border-color: #f33;
 }
 
@@ -34,11 +25,5 @@ input[type="checkbox"]:invalid + label::before {
 .is-validated input:invalid + label + .erro-message,
 .is-validated:invalid + .error-message,
 .is-validated:invalid + label + .error-message {
-  display: block;
-}
-
-.error-message:first-child,
-input:invalid + .error-message,
-input:invalid + label + .error-message {
   display: block;
 }
