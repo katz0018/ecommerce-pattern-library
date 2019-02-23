@@ -17,3 +17,27 @@ focus:active {
   border-color: transparent;
   border-bottom: solid 1px var(--color-primary);
 }
+
+.nav-1 {
+  display: none;
+}
+
+.nav-check{
+  position: absolute;
+  top: -4%;
+}
+
+.nav-check:checked ~ .nav-1 {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
