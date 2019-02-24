@@ -6,13 +6,18 @@
   background-color: var(--color-primary);
 }
 
-.ingredients h1, h3, p {
-  color: var(--color-primary);
+.select {
+  border: 2px solid var(--color-secondary);
+  background-color: transparent;
+  color: var(--color-secondary);
+  cursor: pointer;
+  width: 8em;
+  height: 90px;
+  padding-left: 2em;
 }
 
-.select {
-  border: 2px solid var(--color-primary);
-  background-color: #000;
+.white-type {
+  color: var(--color-secondary);
 }
 
 .select .option {

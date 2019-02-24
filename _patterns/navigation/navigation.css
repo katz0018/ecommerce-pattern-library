@@ -18,6 +18,10 @@ focus:active {
   border-bottom: solid 1px var(--color-primary);
 }
 
+.search-box {
+  width: 30%;
+}
+
 .nav-1 {
   display: none;
 }
@@ -37,7 +41,20 @@ focus:active {
   display: inline-block;
 }
 
-.nav-label img {
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-close {
+  display: block;
 }
