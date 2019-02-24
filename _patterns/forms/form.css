@@ -2,6 +2,23 @@
   color: #000;
 }
 
+.quantity-form {
+  background-color: var(--color-primary);
+}
+
+.ingredients h1, h3, p {
+  color: var(--color-primary);
+}
+
+.select {
+  border: 2px solid var(--color-primary);
+  background-color: #000;
+}
+
+.select .option {
+  color: var(--color-primary);
+}
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
@@ -17,7 +34,7 @@
 
 .error-message-highlighted {
   background-color: #c33;
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .is-validated > .error-message:first-child,

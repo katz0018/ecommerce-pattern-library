@@ -1,12 +1,114 @@
 .image-sexy {
   position: relative;
+  left: -3em;
+  top: 3em;
+}
+
+.image-sexy img {
+  width: 30em;
 }
 
 .text-sexy {
   position: absolute;
-  bottom: 26em;
+  top: 1em;
+  width: 18em;
+  left: 2em;
+}
+
+.third-banner {
+  background-image: url(/images/leafe.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--color-primary);
+}
+
+.type {
+  color: var(--color-secondary);
+}
+
+.tilt {
+  transform: rotate(15deg);
+}
+
+.tilt-1 {
+  transform: rotate(-15deg);
 }
 
 .second-banner {
   background-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 25em) {
+
+  .image-sexy {
+    left: -3em;
+    top: -6em;
+  }
+
+  .image-sexy img {
+    width: 45em;
+  }
+
+  .text-sexy {
+    top: 1em;
+    width: 12em;
+    left: 2em;
+  }
+
+}
+
+
+@media only screen and (min-width: 30em) {
+
+  .image-sexy {
+    left: -3em;
+    top: -5em;
+  }
+
+  .image-sexy img {
+    width: 60em;
+  }
+
+  .text-sexy {
+    top: 7em;
+    width: 18em;
+    left: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .image-sexy {
+    left: 3em;
+  }
+
+  .image-sexy img {
+    width: 72em;
+  }
+
+  .text-sexy {
+    top: 10em;
+    width: 22em;
+    left: 4em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .image-sexy {
+    left: 3em;
+  }
+
+  .image-sexy img {
+    width: 80em;
+  }
+
+  .text-sexy {
+    top: 12em;
+    width: 22em;
+    left: 7em;
+  }
+
 }
