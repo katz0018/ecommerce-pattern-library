@@ -55,6 +55,6 @@ focus:active {
   display: none;
 }
 
-.nav-check:checked ~ .nav-close {
+.nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
