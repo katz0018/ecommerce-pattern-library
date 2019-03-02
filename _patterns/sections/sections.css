@@ -1,3 +1,15 @@
 .width {
   width: 20em;
 }
+
+.title {
+  text-align: center;
+}
+
+@media only screens and (min-width: 25em) {
+
+  .title {
+    text-align: left;
+  }
+
+}
