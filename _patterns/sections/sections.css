@@ -6,6 +6,22 @@
   text-align: center;
 }
 
+.ear-bd {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 6px;
+}
+
+.bg {
+  background-image: url("../images/ear1.png");
+  background-size: 2.8em;
+  height: 9em;
+}
+
+.bold-none {
+  font-weight: lighter;
+}
+
 @media only screens and (min-width: 25em) {
 
   .title {
