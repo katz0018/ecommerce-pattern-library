@@ -1,0 +1,13 @@
+patterns:
+  purchasing:
+    description: |
+      This is the form that will appear once you've decided to buy the items in your cart. This is to be used on the checkout page.
+  quantity-form:
+    description: |
+      This is form is a small section within the details page. This form shows you the ingredients of a specific item and allows you to choose a quantity to add to cart.
+  contact-form:
+    description: |
+      This form is only used in a page that would pop up if you deside to contact the brand. It will not formally appear on any of the main page. The main page will only show the button contact which will lead to this.
+  subscribe-email:
+    description: |
+      This form is only used in the footer to allow the user to quickly subscribe to the website.

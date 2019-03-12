@@ -11,3 +11,6 @@ patterns:
     title: "Add to cart"
     description: |
       This button is only to be used when you are viewing a specific item and if you would like to add to your cart.
+  nav-button:
+    description: |
+      This button is only used within the navigation, do not use for anything else.

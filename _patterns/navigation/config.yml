@@ -1,0 +1,4 @@
+patterns:
+  toggle-navigation:
+    description: |
+      This is the main navigation which is featured in the header.

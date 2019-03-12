@@ -8,3 +8,7 @@ patterns:
     title: "Products page card set"
     description: |
       This set of cards will be used only for the products page.
+  image-card-tilted:
+    title: "simple image, just incase"
+    description: |
+      This card is a simple image of the product. It's only used within the areas that the product shows up titled, unless you find you need it for something else.

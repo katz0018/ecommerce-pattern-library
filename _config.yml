@@ -6,11 +6,37 @@ patternbot:
   description:
     Clean Soap belives in helping you feel sexy. We create all our soap by hand, making a more eco-friendly way of making soap. Clean Soap also donates 20% of our income to Global warming.org. Clean mind, clean world, sexy you.
   font_url: "https://fonts.google.com/?query=Robo&selection.family=Roboto:300,400,400i,700,900"
-
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
   rationales:
-    colors.primary: |
+    colors.primary:
+      description: |
         This color is as part of the brands main colour, it can be used as colouring section.
-    colors.secondary: |
+    colors.secondary:
+      description: |
         This is only to be used as an optional second color.
-    colors.accent: |
+    colors.accent:
+      description: |
         This color is only to be used to emphasize something on the website. Like a link, a special section on the website, etc.
+    typefaces.primary:
+      description: |
+        This is the main typeface. It is also the only typeface that is featured in the whole website.
+    headings:
+      description: |
+        Use the headings according to its level. The h2's are only used for the title of diffrent sections. H1 is only used for the banner.
+    Links:
+      description: |
+        Use the link for anything that is a url or anything that takes you to another website, page (ex.contact page; however, this is optional.)
+    Lists:
+      description: |
+        The list can be used for the product detail page, the section where it explains what ingredients that is inside each product.
+    icons.insta-icon:
+      description: |
+        This icon is only used for the footer in the part that it talks about the brands social media.
+    icons.search:
+      description: |
+        This is used within the header in the search section of the navigation.
+    icons.vegan:
+      description: |
+        This icon is used only beside the name of certain products that are vegan. It is also used in the details page, above the ingredients list for each product.

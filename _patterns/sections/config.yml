@@ -1,0 +1,10 @@
+patterns:
+  checkout-summary:
+    description: |
+      When you go to checkout, this section will appear on the right hand side. It has a purpose of informing the user the total that there shopping has totaled to.
+  header-products-page:
+    description: |
+      This heading is only to be used why searching specific product categories.
+  footer:
+    description: |
+      This is the footer, which will be the same on every page. It will appear at the bottom of every page.

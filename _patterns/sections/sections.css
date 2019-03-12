@@ -1,3 +1,12 @@
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
 .width {
   width: 20em;
 }
@@ -6,15 +15,9 @@
   text-align: center;
 }
 
-.ear-bd {
-  background-color: var(--color-primary);
-  color: #fff;
-  border-radius: 6px;
-}
-
 .bg {
   background-image: url("../images/ear1.png");
-  background-size: 2.8em;
+  background-size: 4.3em;
   height: 9em;
 }
 

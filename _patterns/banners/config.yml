@@ -1,0 +1,7 @@
+patterns:
+  third-banner:
+    description: |
+      This is a banner that will only be used in the main page as way to show feature items/most popular.
+  call-to-action:
+    description: |
+      This is the main call to action banner that will only be used in the main page as way to capture the audiences' attention.
