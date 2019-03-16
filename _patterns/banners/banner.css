@@ -8,6 +8,14 @@
   width: 30em;
 }
 
+.width-text {
+  width: 25em;
+}
+
+.bg-color {
+  background-color:  var(--color-hover);
+}
+
 .text-sexy {
   position: absolute;
   top: 1em;

@@ -40,3 +40,7 @@ patternbot:
     icons.vegan:
       description: |
         This icon is used only beside the name of certain products that are vegan. It is also used in the details page, above the ingredients list for each product.
+
+collections:
+  products:
+    output: true
