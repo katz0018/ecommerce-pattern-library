@@ -5,6 +5,10 @@ patterns:
   header-products-page:
     description: |
       This heading is only to be used why searching specific product categories.
+    fields:
+      -name: heading
+        type: string
+        example: "Ear Soap"
   footer:
     description: |
       This is the footer, which will be the same on every page. It will appear at the bottom of every page.

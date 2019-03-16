@@ -7,10 +7,10 @@
     </label>
     <ul class="push-0 nav-1 list-group">
       <li class="push-1-2"><a href="/">Home</a></li>
-      <li class="push-1-2"><a href="#">Feet Soap</a></li>
-      <li class="push-1-2"><a href="#">Hand Soap</a></li>
-      <li class="push-1-2"><a href="..ear-soap.html">Ear Soap</a></li>
-      <li class="push-2"><a href="about.html">About Us</a></li>
+      <li class="push-1-2 {% if page.highlight_nav == 'feet-soap' %}current{% endif %}"><a href="#">Feet Soap</a></li>
+      <li class="push-1-2 {% if page.highlight_nav == 'hand-soap' %}current{% endif %}"><a href="#">Hand Soap</a></li>
+      <li class="push-1-2 {% if page.highlight_nav == 'ear-soap' %}current{% endif %}"><a href="..ear-soap.html">Ear Soap</a></li>
+      <li class="push-2 {% if page.highlight_nav == 'about-us' %}current{% endif %}"><a href="about.html">About Us</a></li>
       <li class="search-box push-1-2">
         <input class="search milli " type="text" name="searchbox" placeholder="search">
       </li>
