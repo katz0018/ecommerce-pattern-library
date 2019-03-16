@@ -5,3 +5,10 @@ patterns:
   call-to-action:
     description: |
       This is the main call to action banner that will only be used in the main page as way to capture the audiences' attention.
+    fields:
+      - name: heading
+        type: string
+        example: "A new level of confidence."
+      - name: text
+        type: string
+        example: "The only soap brand that has soap for all your body parts, leaving you head to toe clean."
