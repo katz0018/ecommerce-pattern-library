@@ -5,6 +5,8 @@
   <div class="text-sexy">
     <h1 class="push-0">{{includ.heading}}</h1>
     <p>{{includ.text}}</p>
-    {% pattern buttons/basic %}
+    {% id include.button_url %}
+    {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

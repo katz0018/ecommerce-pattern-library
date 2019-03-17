@@ -12,3 +12,11 @@ patterns:
       - name: text
         type: string
         example: "The only soap brand that has soap for all your body parts, leaving you head to toe clean."
+      - name: button_text
+        type: string
+        example: "products"
+        requires: false
+      - name: button_url
+        type: url
+        example: "/ear-soap/"
+        required: false
