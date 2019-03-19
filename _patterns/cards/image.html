@@ -1,10 +1,10 @@
 <div class="product-card">
   <div class="push-2">
-    <img class="img-flex" src="/images/shampoo-toenails.png" alt="">
+    <img class="img-flex" src="{{include.data.image}}" alt="">
     <div class="gutter-1-2">
-      <h2 class="push-0">Pink Grapefruit <span class="bold">$3.00</span></h2>
-      <p>Toenail soap</p>
-      {%pattern buttons/basic text="Details"%}
+      <h2 class="push-0">{{include.data.title}}<span class="bold">${{include.data.cost}}</span></h2>
+      <p>{{include.data.desc}}</p>
+      {%pattern buttons/basic text="Buy Now" %}
     </div>
   </div>
 </div>

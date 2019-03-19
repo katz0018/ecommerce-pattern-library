@@ -8,6 +8,12 @@ patterns:
     title: "Products page card set"
     description: |
       This set of cards will be used only for the products page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
   image-card-tilted:
     title: "simple image, just incase"
     description: |
