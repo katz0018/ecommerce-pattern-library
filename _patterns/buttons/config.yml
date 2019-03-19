@@ -6,7 +6,7 @@ patterns:
     fields:
       - name: text
         type: string
-        example: "products"
+        example: "Products"
       - name: url
         type: url
         example: "/ear-soap/"

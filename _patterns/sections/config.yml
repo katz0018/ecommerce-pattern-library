@@ -6,7 +6,7 @@ patterns:
     description: |
       This heading is only to be used why searching specific product categories.
     fields:
-      -name: heading
+      - name: heading
         type: string
         example: "Ear Soap"
   footer:

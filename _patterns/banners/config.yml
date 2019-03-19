@@ -6,6 +6,9 @@ patterns:
       - name: heading
         type: string
         example: "Grapefruit Blossom"
+      - name: text
+        type: string
+        example: "Toenail soap"
   call-to-action:
     description: |
       This is the main call to action banner that will only be used in the main page as way to capture the audiences' attention.
@@ -18,7 +21,7 @@ patterns:
         example: "The only soap brand that has soap for all your body parts, leaving you head to toe clean."
       - name: button_text
         type: string
-        example: "products"
+        example: "Products"
         requires: false
       - name: button_url
         type: url

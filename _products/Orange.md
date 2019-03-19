@@ -1,6 +1,7 @@
 ---
 name: "Rose Grapefruit"
-desc: "Freshly picked rose petals crushed finely into a dust, zesty grapefruit scent, vegan."
+description: "Freshly picked rose petals crushed finely into a dust, zesty grapefruit scent, vegan."
+desc: Eyelash Soap
 image: "/images/eyelash-soap.png"
 cost: $30.00
 colors:

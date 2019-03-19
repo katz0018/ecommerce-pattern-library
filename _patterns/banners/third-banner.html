@@ -3,21 +3,24 @@
   <div class="grid">
     <div class="unit push-2 s-1-2 m-1-3 l-1-3">
       <div class="type tilt">
-        {% pattern cards/image-card-tilted %}
+        {% assign product=site.products[0] %}
+        {% pattern cards/image-card-tilted data=product %}
       </div>
       <h2 class="text-center giga type push-0">{{include.heading}}</h2>
     </div>
 
     <div class="unit unit-xs-hidden push-2 s-1-2 m-1-3 l-1-3">
       <div class="tilt-1">
-        {% pattern cards/image-card-tilted %}
+        {% assign product=site.products[1] %}
+        {% pattern cards/image-card-tilted data=product %}
       </div>
       <h2 class="text-center giga type push-0">{{include.heading}}</h2>
     </div>
 
     <div class="unit unit-xs-hidden push-2 unit-2-hidden m-1-3 l-1-3">
       <div class="tilt">
-        {% pattern cards/image-card-tilted %}
+        {% assign product=site.products[2] %}
+        {% pattern cards/image-card-tilted data=product %}
       </div>
       <h2 class="text-center giga type push-0">{{include.heading}}</h2>
     </div>
