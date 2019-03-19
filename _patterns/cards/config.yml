@@ -18,3 +18,9 @@ patterns:
     title: "simple image, just incase"
     description: |
       This card is a simple image of the product. It's only used within the areas that the product shows up titled, unless you find you need it for something else.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
