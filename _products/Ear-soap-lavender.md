@@ -1,5 +1,4 @@
 ---
-
 name: "Lavender Orange"
 desc: "Fresh scented, fruity and flowery soap made with freshly picked lavender and fresh orange zest."
 image: "/images/ear-soap.png"
