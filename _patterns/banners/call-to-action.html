@@ -3,9 +3,9 @@
     <img src="/images/sexy-banner.jpg" alt="">
   </div>
   <div class="text-sexy">
-    <h1 class="push-0">{{includ.heading}}</h1>
-    <p>{{includ.text}}</p>
-    {% id include.button_url %}
+    <h1 class="push-0">{{include.heading}}</h1>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
     {% pattern buttons/basic url=include.button_url text=include.button_text %}
     {% endif %}
   </div>
