@@ -11,3 +11,7 @@ patterns:
   subscribe-email:
     description: |
       This form is only used in the footer to allow the user to quickly subscribe to the website.
+    field:
+      - name: text
+        type: string
+        example: "SUBSCRIBE"

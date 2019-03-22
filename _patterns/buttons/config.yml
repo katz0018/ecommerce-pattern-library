@@ -14,10 +14,28 @@ patterns:
     title: "Footer button"
     description: |
       This button will be used for the subscribe button in the footer.
+    fields:
+      - name: text
+        type: string
+        example: "Submit"
+      - name: url
+        type: url
+        example: "/thankyou/"
   button-white:
     title: "Add to cart"
     description: |
       This button is only to be used when you are viewing a specific item and if you would like to add to your cart.
+    fields:
+      - name: text
+        type: string
+        example: "Buy now"
+      - name: url
+        type: url
+        example: "/thankyou/"
   nav-button:
     description: |
       This button is only used within the navigation, do not use for anything else.
+    fields:
+      - name: text
+        type: string
+        example: "Nav Title"
