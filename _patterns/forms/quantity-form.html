@@ -1,7 +1,7 @@
 <div class="quantity-form grid">
   <div class="pad-t-2 gutter-2 unit xs-1 s-1 m-1 l-1">
-    <h1 class="push-0 white-type">Vanilla Coconut $3.25</h1>
-    <h3 class="white-type">Soap Bar</h3>
+    <h1 class="push-0 white-type">{{include.name}} <span>{{include.cost}}</span></h1>
+    <h3 class="white-type">{{include.desc}}</h3>
   </div>
   <div class="gutter-2 unit xs-1 s-1-2 m-1-2 l-1-2">
     <div class="push">
@@ -17,13 +17,5 @@
     <div class="push-2">
       {% pattern buttons/button-white text="Add to cart" %}
     </div>
-  </div>
-  <div class="gutter-2 unit xs-1 s-1-2 m-1-2 l-1-2">
-    <h3 class="white-type push-0">Ingredients</h3>
-    <p class="white-type">-Lavender<br>
-      -Citrus Oil<br>
-      -Coconut<br>
-      -Flower petals
-    </p>
   </div>
 </div>
