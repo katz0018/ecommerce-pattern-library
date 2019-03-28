@@ -7,4 +7,10 @@ cost: $15.00
 colors:
   - "Light purple"
 texture: "smooth"
+ingredients:
+  - "lavender"
+  - "Gardenia petals"
+  - "Lemon"
+  - "Soap"
+  - "Love"
 ---

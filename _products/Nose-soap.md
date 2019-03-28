@@ -7,4 +7,8 @@ cost: $25.00
 colors:
   - "Light Green"
 texture: "smooth"
+ingredients:
+  - "Cucumber"
+  - "Soap"
+  - "Love"
 ---

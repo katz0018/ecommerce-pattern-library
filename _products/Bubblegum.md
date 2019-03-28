@@ -7,4 +7,9 @@ cost: $10.00
 colors:
   - "baby pink"
 texture: "smooth"
+ingredients:
+  - "Bubblegum"
+  - "strawberry"
+  - "Soap"
+  - "Love"
 ---

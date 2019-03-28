@@ -7,4 +7,10 @@ cost: $30.00
 colors:
   - "eggshell white"
 texture: "smooth"
+ingredients:
+  - "Rose petals"
+  - "Grapefruit zest"
+  - "Orange"
+  - "Soap"
+  - "Love"
 ---

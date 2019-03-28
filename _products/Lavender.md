@@ -7,4 +7,9 @@ cost: $25.00
 colors:
   - "eggshell white"
 texture: "smooth"
+ingredients:
+  - "lavender"
+  - "Orange zest"
+  - "Soap"
+  - "Love"
 ---

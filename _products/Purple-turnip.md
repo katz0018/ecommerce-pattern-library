@@ -7,4 +7,8 @@ cost: $15.00
 colors:
   - "Light purple with hints of dark purple"
 texture: "smooth"
+ingredients:
+  - "Veggies"
+  - "Soap"
+  - "Love"
 ---
