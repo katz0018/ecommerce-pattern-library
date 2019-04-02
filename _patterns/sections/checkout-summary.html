@@ -2,14 +2,12 @@
   <div class="pad-t gutter">
     <h2 class="yetta bold"> Order summary</h2>
     <div class="">
-      <p class="push-1-2">Feet Soap(1):    $6.25</p>
-      <p class="push-1-2">Toe Soap(1):     $6.25</p>
-      <p class="push-1-2">Ear Soap(2):     $14.00</p><br>
-      <p class="push-1-2">Subtotal:        $28.00</p>
-      <p class="push-1-2">Shipping:        TBD</p>
-      <p class="push-1-2">Sales Tax:       TBD</p>
+      <p class="push-1-2">{{include.name}}<span>{{include.cost}}</span></p>
+      <p class="push-1-2">Subtotal:        <span>{{include.cost}}</span></p>
+      <p class="push-1-2">Shipping:        <span>TBD</span></p>
+      <p class="push-1-2">Sales Tax:       <span>TBD</span></p>
       <hr>
-      <h3>TOTAL:          $28.00</h3>
+      <h3>TOTAL:<span>{{include.cost}}</span></h3>
     </div>
     {% pattern buttons/ghost text="Buy" url="/thankyou/" %}
   </div>

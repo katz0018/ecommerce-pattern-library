@@ -2,6 +2,12 @@ patterns:
   checkout-summary:
     description: |
       When you go to checkout, this section will appear on the right hand side. It has a purpose of informing the user the total that there shopping has totaled to.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
   header-products-page:
     description: |
       This heading is only to be used why searching specific product categories.
