@@ -1,93 +1,95 @@
-<h1>Purchase</h1>
+<div class="gutter-2 push-2">
+  <h1>Purchase</h1>
 
-<div class="push">
-  <label for="name">Name</label>
-  <input id="name" required aria-describedby="name-error">
-  <p class="error-message milli push-0" id="name-error">
-    <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-    <span class="icon-label">Please provide a name</span>
-  </p>
-</div>
+  <div class="push">
+    <label for="name">Name</label>
+    <input id="name" required aria-describedby="name-error">
+    <p class="error-message milli push-0" id="name-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide a name</span>
+    </p>
+  </div>
 
-<div class="push">
-  <label for="tel">Telephone #</label>
-  <input id="tel" aria-describedby="tel-error">
-  <p class="error-message milli push-0" id="tel-error">
-    <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-    <span class="icon-label">Please provide a telephone number.</span>
-  </p>
-</div>
+  <div class="push">
+    <label for="tel">Telephone #</label>
+    <input id="tel" aria-describedby="tel-error">
+    <p class="error-message milli push-0" id="tel-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide a telephone number.</span>
+    </p>
+  </div>
 
-<div class="push-2">
-  <label for="email">Email</label>
-  <input type="email" id="email" required aria-describedby="email-error">
-  <p class="error-message milli push-0" id="email-error">
-    <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-    <span class="icon-label">Please provide a properly formatted email address</span>
-  </p>
-</div>
+  <div class="push-2">
+    <label for="email">Email</label>
+    <input type="email" id="email" required aria-describedby="email-error">
+    <p class="error-message milli push-0" id="email-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide a properly formatted email address</span>
+    </p>
+  </div>
 
-<legend class="bold giga">Address</legend>
-<div class="grid">
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    <div class="pad-t-1-2 gutter-1-2 pad-b-1-2">
-      <label for="street-address">Street address</label>
-      <input id="street-address" required aria-describedby="email-error">
+  <legend class="bold giga">Address</legend>
+  <div class="grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <div class="pad-t-1-2 gutter-1-2 pad-b-1-2">
+        <label for="street-address">Street address</label>
+        <input id="street-address" required aria-describedby="email-error">
+      </div>
+
+      <div class="gutter-1-2 pad-t-1-2 pad-b-1-2">
+        <label for="select-prov">Province</label>
+        <select id="select-prov" required aria-describedby="email-error">
+          <option>Select a province</option>
+          <option>Alberta</option>
+          <option>British Columbia</option>
+          <option>Manitoba</option>
+          <option>New Brunswick</option>
+          <option>Newfoundland & Labrador</option>
+          <option>Northwest Territories</option>
+          <option>Nova Scotia</option>
+          <option>Nunavut</option>
+          <option>Ontario</option>
+          <option>Prince Edward Island</option>
+          <option>Québec</option>
+          <option>Saskatchewan</option>
+          <option>Yukon</option>
+        </select>
+      </div>
     </div>
 
-    <div class="gutter-1-2 pad-t-1-2 pad-b-1-2">
-      <label for="select-prov">Province</label>
+    <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
+      <div class="pad-t-1-2 pad-b-1-2">
+        <label for="city">City</label>
+        <input id="city" required aria-describedby="email-error">
+      </div>
+
+      <div class="gutter-1-4 pad-t-1-2">
+        <label for="postal-code">Postal code</label>
+        <input id="postal-code" required aria-describedby="email-error">
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <legend class="bold pad-t-2 giga">Payment</legend>
+    <div class="pad-t-1-2 pad-b-1-2">
+      <label for="select-prov">Method of payment</label>
       <select id="select-prov" required aria-describedby="email-error">
-        <option value="">Select a province</option>
-        <option>Alberta</option>
-        <option>British Columbia</option>
-        <option>Manitoba</option>
-        <option>New Brunswick</option>
-        <option>Newfoundland & Labrador</option>
-        <option>Northwest Territories</option>
-        <option>Nova Scotia</option>
-        <option>Nunavut</option>
-        <option>Ontario</option>
-        <option>Prince Edward Island</option>
-        <option>Québec</option>
-        <option>Saskatchewan</option>
-        <option>Yukon</option>
+        <option value="">Payment</option>
+        <option>Credit Card/visa</option>
+        <option>Debit</option>
+        <option>Cheque</option>
+        <option>A smile</option>
       </select>
     </div>
-  </div>
-
-  <div class="gutter-1-2 unit xs-1 s-1 m-1-2 l-1-2">
     <div class="pad-t-1-2 pad-b-1-2">
-      <label for="city">City</label>
-      <input id="city" required aria-describedby="email-error">
+      <label for="expire">Enter the expire date.</label>
+      <input id="expire" required aria-describedby="email-error" type="date">
     </div>
 
-    <div class="gutter-1-4 pad-t-1-2">
-      <label for="postal-code">Postal code</label>
-      <input id="postal-code" required aria-describedby="email-error">
-    </div>
-  </div>
-</div>
-
-<div>
-  <legend class="bold pad-t-2 giga">Payment</legend>
-  <div class="pad-t-1-2 pad-b-1-2">
-    <label for="select-prov">Method of payment</label>
-    <select id="select-prov" required aria-describedby="email-error">
-      <option value="">Payment</option>
-      <option>Credit Card/visa</option>
-      <option>Debit</option>
-      <option>Cheque</option>
-      <option>A smile</option>
-    </select>
-  </div>
-  <div class="pad-t-1-2 pad-b-1-2">
-    <label for="expire">Enter the expire date.</label>
-    <input id="expire" required aria-describedby="email-error" type="date">
   </div>
 
-</div>
-
-<div class="pad-t">
-  {% pattern buttons/ghost text="Submit" url="/thankyou/" %}
+  <div class="pad-t">
+    {% pattern buttons/ghost text="Submit" url="/thankyou/" %}
+  </div>
 </div>

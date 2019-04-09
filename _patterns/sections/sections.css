@@ -6,6 +6,15 @@
   text-align: center;
 }
 
+.blackbg {
+  background-color: var(--color-primary);
+  height: 9em;
+}
+
+.white-text {
+  color: #fff;
+}
+
 .bg {
   background-image: url("../images/ear1.png");
   background-size: 4.3em;

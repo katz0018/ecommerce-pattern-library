@@ -1,13 +1,16 @@
+{% assign tax=include.data.cost|times:0.1654 %}
+{% assign shipping=10 %}
+
 <div>
-  <div class="pad-t">
+  <div class="gutter-2">
     <h2 class="yetta bold"> Order summary</h2>
     <div class="">
-      <p class="push-1-2">{{include.name}}<span>{{include.cost}}</span></p>
-      <p class="push-1-2">Subtotal:        <span>{{include.cost}}</span></p>
-      <p class="push-1-2">Shipping:        <span>TBD</span></p>
-      <p class="push-1-2">Sales Tax:       <span>TBD</span></p>
+      <p class="push-1-2">{{include.data.name}}<span>${{include.data.cost}}</span></p>
+      <p class="push-1-2">Subtotal:        <span>${{include.data.cost}}</span></p>
+      <p class="push-1-2">Shipping:        <span>${{shipping}}</span></p>
+      <p class="push-1-2">Sales Tax:       <span>${{tax}}</span></p>
       <hr>
-      <h3>TOTAL:<span>{{include.cost}}</span></h3>
+      <h3>TOTAL:<span>${{include.data.cost|plus:shipping|plus:tax|round:2}}</span></h3>
     </div>
     {% pattern buttons/ghost text="Buy" url="/thankyou/" %}
   </div>
