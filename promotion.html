@@ -4,10 +4,15 @@ layout: default
 {% pattern banners/call-to-action heading="SALE, 50% OFF!" text="All new low prices of soap in order to reveal the cleanest and sexiest you there is." button_text="Sale" %}
 
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    {% pattern cards/image-card-tilted data=product %}
+  <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
+    {% assign product=site.products[2] %}
+    {% pattern cards/image data=product %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    {% pattern cards/image-card-tilted data=product %}
+  <div class="gutter-2 unit xs-1 s-1 m-1-2 l-1-2">
+    {% assign product=site.products[3] %}
+    {% pattern cards/image data=product %}
+  </div>
+  <div class="unit pad-t-2 xs-1 s-1 m-1 l-1 gutter-2">
+    {% pattern cards/mission-cards heading="$3.00" text="Lavendar soap that will leave your finger nails leaving you sexier than before." %}
   </div>
 </div>

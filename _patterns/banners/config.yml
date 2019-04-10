@@ -27,3 +27,11 @@ patterns:
         type: url
         example: "/ear-soap/"
         required: false
+  second-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Our Mission"
+      - name: text
+        type: string
+        example: "We belive in creating a clean body that gives the a whole new level of confidence."

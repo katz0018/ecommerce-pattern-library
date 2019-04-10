@@ -4,6 +4,14 @@ patterns:
     title: "Banner card"
     description: |
       These three cards will be used as a description of the banner on the main page, under our mission section.
+    fields:
+      - name: heading
+        type: string
+        example: "$3.00"
+      - name: text
+        type: string
+        example: "Lavendar soap that will leave your finger nails leaving you sexier than before."
+
   image:
     title: "Products page card set"
     description: |
