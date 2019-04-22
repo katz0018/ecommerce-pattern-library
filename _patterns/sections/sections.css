@@ -21,6 +21,15 @@
   height: 9em;
 }
 
+.select {
+  background-color: var(--color-primary);
+  color: var(--color-primary);
+  cursor: pointer;
+  width: 8em;
+  height: 90px;
+}
+
+
 .bold-none {
   font-weight: lighter;
 }
